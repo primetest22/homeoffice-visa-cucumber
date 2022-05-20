@@ -1,0 +1,381 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 863307000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Check UK visa website",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iAmOnTheCheckUKVisaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start visa check",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iStartVisaCheck()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6396506000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "An Australian coming to the UK for Tourism.",
+        "description": "",
+        "id": "visa-checks;an-australian-coming-to-the-uk-for-tourism.",
+        "after": [
+          {
+            "result": {
+              "duration": 851796200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 709430800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select a nationality of \u0027Australia\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iSelectANationalityOfAustralia()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 817439900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select reason \u0027Tourism\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iSelectReasonTourism()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154254900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will be informed \u0027You will not need a visa to come to the UK\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iWillBeInformedYouWillNotNeedAVisaToComeToTheUK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Sanity"
+          },
+          {
+            "line": 7,
+            "name": "@Smoke"
+          },
+          {
+            "line": 7,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 452859800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Check UK visa website",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iAmOnTheCheckUKVisaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start visa check",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iStartVisaCheck()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2093011900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "A Chilean coming to the UK for Work and plans on staying for longer than 6 months.",
+        "description": "",
+        "id": "visa-checks;a-chilean-coming-to-the-uk-for-work-and-plans-on-staying-for-longer-than-6-months.",
+        "after": [
+          {
+            "result": {
+              "duration": 801691600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 693789800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select a nationality of \u0027Chile\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iSelectANationalityOfChile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 675574800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select reason \u0027Work\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iSelectReasonWork()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492667500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I state I am intending to stay for \u0027more than six\u0027 months",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iStateIAmIntendingToStayForMoreThanMonths()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 719012800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I state I have planning to work \u0027health\u0027 types of job",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iStateIHavePlanningToWorkHealthTypesOfJob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126156600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I will be informed \u0027You need a visa to work in health and care\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iWillBeInformedYouNeedAVisaToWorkInHealthAndCare()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Smoke"
+          },
+          {
+            "line": 13,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 445996900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Check UK visa website",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iAmOnTheCheckUKVisaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start visa check",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iStartVisaCheck()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2402147700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "A Columbian national coming to the UK to join a partner for a long stay. They do have an Article 10 or 20 card.",
+        "description": "",
+        "id": "visa-checks;a-columbian-national-coming-to-the-uk-to-join-a-partner-for-a-long-stay.-they-do-have-an-article-10-or-20-card.",
+        "after": [
+          {
+            "result": {
+              "duration": 794989000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 591341000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I select a nationality of \u0027Colombia\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iSelectANationalityOfColombia()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592140100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select reason \u0027family\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iSelectReasonFamily()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 686233300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I state My partner or family member have uk immigration status \u0027yes\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iStateMyPartnerOrFamilyMemberHaveUkImmigrationStatusYes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101167300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I will be informed \u0027You’ll need a visa to join your family or partner in the UK\u0027",
+            "match": {
+              "location": "VisaConfirmationTestSteps.iWillBeInformedYouLlNeedAVisaToJoinYourFamilyOrPartnerInTheUK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Visa checks",
+    "description": "",
+    "id": "visa-checks",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/VisaConfirmationTest.feature"
+  }
+]
